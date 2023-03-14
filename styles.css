@@ -9,19 +9,36 @@ body{
     align-items: center;
     width: 100%;
     min-height: 95vh;
+    overflow-x: hidden;
 }
 
-.container{
+#container{
     display: flex;
     flex-direction: column;
     padding: 25px;
+    width: 90%;
     border: 2px solid rgb(16, 174, 18);
     border-radius: 13px;
     background-color: rgb(227, 241, 240);
 }
 
-image{
-    margin: 10px;
+.gifs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 80%;
+    height: auto;
+    margin: auto;
+    flex-direction: row;
+}
+
+.gifs img {
+    width: auto;
+    height: auto;
+    margin: 5px;
+    border: 2px solid rgb(81, 52, 92);
 }
 input, button{
     width: fit-content;
