@@ -24,7 +24,7 @@ let gifs = {
                 image2.src = response.data[1].images.original.url;
                 image3.src = response.data[2].images.original.url;
                 image4.src = response.data[3].images.original.url;
-                image5.src = response.data[4].images.original.ur
+                image5.src = response.data[4].images.original.url;
             })
             .catch(e => {
                 console.log(e);
